@@ -1,0 +1,13 @@
+{
+    "name": "Paffw0rdz - Securely Save Your Passwords for Free",
+    "description": "Generate, Autofill and Save your passwords seamlessly",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
